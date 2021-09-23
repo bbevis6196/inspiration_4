@@ -35,7 +35,7 @@ TBD
 
 
 ## Team Members
--Noah Cothran: [GitHub](https://github.com/NoahCothran) | enneagram: type 9 & 5 <br>
--Benjamin Bevis: [GitHub](https://github.com/bbevis6196) | enneagram: type 4 & 7 <br>
--Jada Smith: [GitHub](https://github.com/jsmith698) | enneagram: type 2 <br>
--Taylor Moss: [Github](https://github.com/Taebun96) <br>
+- Noah Cothran: [GitHub](https://github.com/NoahCothran) | enneagram: type 9 & 5 <br>
+- Benjamin Bevis: [GitHub](https://github.com/bbevis6196) | enneagram: type 4 & 7 <br>
+- Jada Smith: [GitHub](https://github.com/jsmith698) | enneagram: type 2 <br>
+- Taylor Moss: [Github](https://github.com/Taebun96) <br>
