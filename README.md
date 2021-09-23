@@ -12,3 +12,4 @@
 ## Team Members
 -Noah Cothran: [GitHub](https://github.com/NoahCothran) | enneagram: type 9 & 5 <br>
 -Benjamin Bevis: [GitHub](https://github.com/bbevis6196)
+-Jada Smith: [GitHub](https://github.com/jsmith698)
