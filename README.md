@@ -6,7 +6,7 @@
    * [Resources](#Resources)
    * [Processes](#Processes)
    * [Team Roles](#Team-Roles)
-   * [Schedules](#Schedules-(times-available))
+   * [Schedules](#Schedules/times-available)
    * [Team Members](#Team-Members)
 ---
 
@@ -23,7 +23,7 @@
 ## Team Roles
 TBD
 
-## Schedules (times available)
+## Schedules/times available
 #### Benjamin Bevis
 - Monday: 6pm-2am Tuesday: 2:30pm-2am Wednesday: Any Thursday: 2:30pm-2am Friday:Any Saturday:Any if scheduled Sunday:Any if scheduled 
 #### Jada Smith
