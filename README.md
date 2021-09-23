@@ -9,5 +9,5 @@
 ## Schedules
 
 ## Team Members
--Noah Cothran: [GitHub](https://github.com/NoahCothran)
+-Noah Cothran: [GitHub](https://github.com/NoahCothran) <br>
 -Benjamin Bevis: [GitHub](https://github.com/bbevis6196)
