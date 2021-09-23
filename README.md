@@ -9,7 +9,13 @@
 
 ## Schedules
 #Benjamin Bevis
-- Monday: 6pm-2am Tuesday: 2:30pm-2am Wednesday: Any Thursday: 2:30pm-2am Friday:Any Saturday:Any if scheduled Sunday:Any if scheduled  
+- Monday: 6pm-2am Tuesday: 2:30pm-2am Wednesday: Any Thursday: 2:30pm-2am Friday:Any Saturday:Any if scheduled Sunday:Any if scheduled 
+#NoahCothran
+-
+#Jada Smith
+-
+#Taylor Moss
+-
 ## Team Members
 -Noah Cothran: [GitHub](https://github.com/NoahCothran) | enneagram: type 9 & 5 <br>
 -Benjamin Bevis: [GitHub](https://github.com/bbevis6196) 
