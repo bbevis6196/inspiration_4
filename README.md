@@ -1,2 +1,12 @@
 # inspiration_4
-Group repo for Inspiration_4
+
+## Resources
+
+## Processes (meetings, communication, workflow)
+
+## Team Roles
+
+## Schedules
+
+## Team Members
+-Noah Cothran: [GitHub](https://github.com/NoahCothran)
