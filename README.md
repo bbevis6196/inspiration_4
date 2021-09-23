@@ -36,7 +36,22 @@ TBD
 
 ## Team Members
    #### Noah Cothran 
-      - [GitHub](https://github.com/NoahCothran) | enneagram: type 9 & 5 <br>
-- Benjamin Bevis: [GitHub](https://github.com/bbevis6196) | enneagram: type 4 & 7 <br>
-- Jada Smith: [GitHub](https://github.com/jsmith698) | enneagram: type 2 <br>
-- Taylor Moss: [Github](https://github.com/Taebun96) <br>
+   - [GitHub](https://github.com/NoahCothran)
+   - enneagram: type 9 & 5 
+      - Receptive and reassuring but can be agreeable and complacent; Perceptive and innovative but can be secretive and isolated.
+   - interests: PC building & gaming - tinkering w/ computers, electronics, etc. - trumpet
+   #### Benjamin Bevis 
+   - [GitHub](https://github.com/bbevis6196) 
+   - enneagram: type 4 & 7 
+        - (*stuff here*)
+   - interests:
+   #### Jada Smith 
+   - [GitHub](https://github.com/jsmith698) 
+   - enneagram: type 2 
+        - (*stuff here*)
+   - interests:
+   #### Taylor Moss
+   - [Github](https://github.com/Taebun96)
+   - enneagram: 
+        - (*stuff here*)
+   - interests:
