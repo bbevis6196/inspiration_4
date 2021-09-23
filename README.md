@@ -10,6 +10,8 @@
 ## Schedules
 ### Benjamin Bevis
 - Monday: 6pm-2am Tuesday: 2:30pm-2am Wednesday: Any Thursday: 2:30pm-2am Friday:Any Saturday:Any if scheduled Sunday:Any if scheduled 
+### Jada Smith
+- Monday: 12pm-5:45pm Tuesday: 9:30am-1:45pm, Anytime Wednesday: 12pm-1:15pm, Anytime Thursday: 9:30am-1:45pm, Anytime Friday: Anytime Saturday: Anytime Sunday: Depending on schedule
 
 
 ## Team Members
