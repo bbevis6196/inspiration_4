@@ -8,7 +8,7 @@
 ## Team Roles
 
 ## Schedules
-#Benjamin Bevis
+### Benjamin Bevis
 - Monday: 6pm-2am Tuesday: 2:30pm-2am Wednesday: Any Thursday: 2:30pm-2am Friday:Any Saturday:Any if scheduled Sunday:Any if scheduled 
 
 
