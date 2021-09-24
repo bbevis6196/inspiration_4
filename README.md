@@ -43,8 +43,8 @@ TBD
    #### Benjamin Bevis 
    - [GitHub](https://github.com/bbevis6196) 
    - enneagram: type 4 & 7 
-        - (*stuff here*)
-   - interests:
+        - type seven's are extroverted, optimistic, versatile, and spontaneous. Playful, high-spirited, and practical, they can also misapply their many talents, becoming over-extended, scattered, and undisciplined. They constantly seek new and exciting experiences, but can become distracted and exhausted by staying on the go. They typically have problems with impatience and impulsiveness. At their Best: they focus their talents on worthwhile goals, becoming appreciative, joyous, and satisfied.
+   - interests: I enjoy spending time with family, hanging with freinds, and playing Valheim. I am also an exremely big Alabama Football fan. My parents have had season tickets since before i was born. 
    #### Jada Smith 
    - [GitHub](https://github.com/jsmith698) 
    - enneagram: type 2 
