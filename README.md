@@ -48,8 +48,8 @@ TBD
    #### Jada Smith 
    - [GitHub](https://github.com/jsmith698) 
    - enneagram: type 2 
-        - (*stuff here*)
-   - interests:
+        - Generous, altruistic, and empathetic in their behavior. Hardworking and motivating people with a drive to connect with the world. Loves attending to other people and feeling helpful.
+   - interests: Gaming, word searches, listening to music, reading web comics
    #### Taylor Moss
    - [Github](https://github.com/Taebun96)
    - enneagram: 
