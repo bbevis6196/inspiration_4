@@ -29,7 +29,7 @@ TBD
 #### Jada Smith
 - Monday: 12pm-5:45pm Tuesday: 9:30am-1:45pm, Anytime Wednesday: 12pm-1:15pm, Anytime Thursday: 9:30am-1:45pm, Anytime Friday: Anytime Saturday: Anytime Sunday: Depending on schedule
 #### Taylor Moss
--  Monday: 11:00am-
+-  Monday: 11:00a.m- 9:00pm Tuesday: Not available at all Wednesday:11:00pm-9pm Thursday: 2:00pm-9:00pm Friday:10:00 am -1:00 pm Saturday: (Varies) off this weekend Sunday: Depends on work schedule.
 #### Noah Cothran
 - Monday & Wednesday: before 9:30am and 10:45-1:00, Tuesday & Thursday & Friday: before 1:00pm, all evenings except Wednesday, Sunday: afternoon
 
@@ -52,6 +52,6 @@ TBD
    - interests: Gaming, word searches, listening to music, reading web comics
    #### Taylor Moss
    - [Github](https://github.com/Taebun96)
-   - enneagram: 
-        - (*stuff here*)
-   - interests:
+   - enneagram:  type 4
+        -  I am creative, expressive, and sensitive. When I am very passionate about something, it becomes a big part of my world, I also like to get very in depth in my friendships with people, I tend t thrive and function off of my emotions 90% of the time.
+   - interests: I love to hang out with love ones, spend time learning as much as i can about life. Always listening to music, in my own zone and anazlyzing this constantly in my mind. 
