@@ -27,4 +27,7 @@ The user receives a message, and the four possible response options pop up to be
 
 ![qwxt drawio](https://user-images.githubusercontent.com/89605074/135511518-a16b5e8f-2589-49ce-87e9-cf30cc50adba.png)
 
+#### Process:
+
+#### Schematic:
 
