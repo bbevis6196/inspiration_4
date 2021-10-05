@@ -28,7 +28,7 @@ As a txt questioner <br>
 I want an actual answer to my question <br>
 So That I don't loose my 🐸 'ing mind <br>
 
-The user recieves a question, with the appropriate answers displayed in an easy to submit form.
+The user recieves a question, with the appropriate answers displayed in an easy to submit form. <br>
 ![qwxt drawio](https://user-images.githubusercontent.com/89605074/135511518-a16b5e8f-2589-49ce-87e9-cf30cc50adba.png)
 
 #### Process:
