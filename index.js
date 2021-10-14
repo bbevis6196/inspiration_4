@@ -8,6 +8,14 @@ app.get('/', function (req, res) {
     res.sendFile('/mainpage.html', { root: __dirname });
 });
 
+app.get('/tap-mainpage', function (req, res) {
+    res.sendFile('/tap-mainpage.html', { root: __dirname });
+});
+
+app.get('/qwxt-mainpage', function (req, res) {
+    res.sendFile('/qwxt-mainpage.html', { root: __dirname });
+});
+
 
 
 
