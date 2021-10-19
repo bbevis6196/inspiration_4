@@ -16,6 +16,14 @@ app.get('/qwxt-mainpage', function (req, res) {
     res.sendFile('/qwxt-mainpage.html', { root: __dirname });
 });
 
+app.get('/tap-app', function (req, res) {
+    res.sendFile('/tapapp.html', { root: __dirname });
+});
+
+app.get('/tap-responses', function (req, res) {
+    res.sendFile('/responses.json', { root: __dirname });
+});
+
 
 
 
