@@ -24,6 +24,10 @@ app.get('/tap-responses', function (req, res) {
     res.sendFile('/responses.json', { root: __dirname });
 });
 
+app.get('/qwxt-app', function (req, res) {
+    res.sendFile('/qwxtapp.html', { root: __dirname });
+});
+
 
 
 

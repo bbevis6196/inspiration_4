@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>QWXT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div id="page">
+    <div id="app">
+      <div id="msg">
+        <p>Do you want to go out or cook tonight or other?</p>
+      </div>
+      <div id="responses">
+
+        <button id="button1" type="button" class="btn">Go Out!</button>
+        <button id="button2" type="button" class="btn">Cook Out!</button>
+        <button id="button3" type="button" class="btn">Other!</button>
+
+      </div>
+      <div id="send">
+        <p id="txtsend"></p>
+
+      </div>
+
+    </div>
+  </div>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=ABeeZee);
+
+    body {
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      margin: 0 auto 0 auto;
+    }
+
+    #page {
+      background-color: #403c3b;
+      margin: 0 auto 0 auto;
+    }
+
+    #header {
+      margin: center-left-side;
+
+    }
+
+    #msg {
+      font-family: "ABeeZee", normal;
+      font-size: 22px;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    #app {
+      background-color: #34ebc6;
+      height: 600px;
+      margin: 0 auto 0 auto;
+      font-family: "ABeeZee", normal;
+    }
+
+    #message {
+      background-color: blue;
+      height: 30%;
+      margin: 0 auto 0 auto;
+    }
+
+    #responses {
+      background-color: #34ebc6;
+      height: 60%;
+      display: flex;
+      font-family: "ABeeZee", normal;
+      flex-direction: column;
+      margin: 0 auto 0 auto;
+      font-size: 20px;
+
+
+    }
+
+    #send {
+      background-color: #34ebc6;
+      height: 20%;
+      margin: 0 auto 0 auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: "ABeeZee", normal;
+      font-size: 22px;
+
+    }
+
+    #button1 {
+      background-color: white;
+      border-radius: 25px;
+      font-size: 22px;
+      color: black;
+      border: 4px solid #4CAF50;
+      height: 33%;
+      font-family: "ABeeZee", normal;
+    }
+
+    #button1:hover {
+      background-color: #4CAF50;
+      color: white;
+      opacity: 1;
+      transition: opacity 0.5s;
+      cursor: pointer;
+    }
+
+    #button2 {
+      background-color: white;
+      border-radius: 25px;
+      font-size: 22px;
+      color: black;
+      border: 4px solid blue;
+      height: 33%;
+      font-family: "ABeeZee", normal;
+    }
+
+    #button2:hover {
+      background-color: blue;
+      color: white;
+      opacity: 1;
+      transition: opacity 0.5s;
+      cursor: pointer;
+    }
+
+    #button3 {
+      background-color: white;
+      color: black;
+      font-size: 22px;
+      border-radius: 25px;
+      border: 4px solid purple;
+      height: 34%;
+      font-family: "ABeeZee", normal;
+    }
+
+    #button3:hover {
+      background-color: purple;
+      color: white;
+      opacity: 1;
+      transition: opacity 0.5s;
+      cursor: pointer;
+    }
+
+    .btn {
+      font-family: "ABeeZee", normal;
+    }
+
+
+    @media only screen and (max-width: 500px) {
+      body {
+        background-color: #584f4d;
+      }
+
+      #page {
+        max-width: 480px;
+      }
+    }
+
+    @media only screen and (min-width: 501px) and (max-width: 767px) {
+      #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+      }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+      }
+    }
+
+    /* Larger screens act like a demo for the app */
+    @media only screen and (min-width: 960px) {
+      #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+      }
+    }
+  </style>
+  <script>
+    var txtsend = document.getElementById('txtsend');
+
+    var app = document.getElementById('responses');
+    app.addEventListener('click', function (e) {
+      //console.log(e);
+
+      var clickedItem = e.target;
+
+      var clickclass = clickedItem.getAttribute("class");
+      //console.log(clickclass);
+
+      if (clickclass == "btn") {
+        //console.log(clickedItem.innerHTML);
+        txtsend.innerHTML = clickedItem.innerHTML;
+      }
+    });
+  </script>
+</body>
+
+</html>
