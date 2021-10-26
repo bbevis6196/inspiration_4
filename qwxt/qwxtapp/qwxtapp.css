@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>QWXT</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
-<body>
-  <div id="page">
-    <div id="app">
-      <div id="msg">
-        <p>Do you want to go out or cook tonight or other?</p>
-      </div>
-      <div id="responses">
-
-        <button id="button1" type="button" class="btn">Go Out!</button>
-        <button id="button2" type="button" class="btn">Cook Out!</button>
-        <button id="button3" type="button" class="btn">Other!</button>
-
-      </div>
-      <div id="send">
-        <p id="txtsend"></p>
-
-      </div>
-
-    </div>
-  </div>
-  <style>
-    @import url(https://fonts.googleapis.com/css?family=ABeeZee);
+@import url(https://fonts.googleapis.com/css?family=ABeeZee);
 
     body {
       background-color: #000;
@@ -183,25 +153,3 @@
         margin: 20px auto 20px auto;
       }
     }
-  </style>
-  <script>
-    var txtsend = document.getElementById('txtsend');
-
-    var app = document.getElementById('responses');
-    app.addEventListener('click', function (e) {
-      //console.log(e);
-
-      var clickedItem = e.target;
-
-      var clickclass = clickedItem.getAttribute("class");
-      //console.log(clickclass);
-
-      if (clickclass == "btn") {
-        //console.log(clickedItem.innerHTML);
-        txtsend.innerHTML = clickedItem.innerHTML;
-      }
-    });
-  </script>
-</body>
-
-</html>
