@@ -43,3 +43,7 @@ app.addEventListener('click', function (e) {
 
 });
 //================================================================
+
+function settingsFunction() {
+    console.log("clicked on setting icon");
+}

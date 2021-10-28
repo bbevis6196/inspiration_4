@@ -90,6 +90,10 @@ body {
 	color: white;
 }
 
+.bi-gear:hover{
+    cursor: pointer;
+}
+
 
 
 
