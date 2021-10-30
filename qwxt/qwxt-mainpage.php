@@ -10,7 +10,7 @@
 <body>
     <h1>Welcome to the QWXT Main Page!</h1>
     <p>stuff about product here</p>
-    <a href="qwxtapp/qwxtapp.html">link to qwxt APP</a>
+    <a href="qwxtapp/qwxtapp.php">link to qwxt APP</a>
 </body>
 
 </html>
