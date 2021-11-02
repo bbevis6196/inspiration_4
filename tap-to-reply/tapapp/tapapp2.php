@@ -1,9 +1,7 @@
 <?php session_start();
-if (isset($_SESSION['question'])) {
-
-} else {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['question'] = $_POST['question'];
-}
+} 
 ?>
 <!DOCTYPE html>
 <html>

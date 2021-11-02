@@ -12,11 +12,11 @@
     <p>In the form below, you can type in a sample question that will appear in the app.
         A default question is already set up if you choose not to submit a question.
         Click 'Go to app' to go to the app.</p>
-    <form action="tapapp/tapapp.php" method="post">
+    <form action="tapapp/tapapp.php" method="POST">
         <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
         <input type="submit" value="Go to app">
     </form>
-    <form action="tapapp/tapapp2.php" method="post">
+    <form action="tapapp/tapapp2.php" method="POST">
         <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
         <input type="submit" value="Go to app 2">
     </form>
