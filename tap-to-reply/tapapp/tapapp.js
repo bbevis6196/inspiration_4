@@ -45,5 +45,10 @@ app.addEventListener('click', function (e) {
 //================================================================
 
 function settingsFunction() {
-    console.log("clicked on setting icon");
+    //console.log("clicked on setting icon");
+    window.location.replace("settings.php");
+}
+
+function goBack() {
+    window.location.replace("tapapp2.php");
 }

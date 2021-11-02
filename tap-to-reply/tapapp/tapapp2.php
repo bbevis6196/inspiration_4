@@ -1,3 +1,10 @@
+<?php session_start();
+if (isset($_SESSION['question'])) {
+
+} else {
+    $_SESSION['question'] = $_POST['question'];
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +26,7 @@
     <div id="page">
         <div id="app">
             <div id="message">
-                <p id="txtquestion">Do you want to go out to the really cool concert tonight?</p>
+                <p id="txtquestion"><?= $_SESSION['question'] ?></p>
                 <div id="settingsdiv">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                         class="bi bi-gear" viewBox="0 0 16 16" onclick="settingsFunction()">
@@ -56,10 +63,12 @@
         </div>
 
     </div>
+    <!--
     <input ng-model="msg.ep"></input>
     <input ng-model="msg.en"></input>
     <input ng-model="msg.up"></input>
     <input ng-model="msg.un"></input>
+    -->
 
     <script src="tapapp.js"></script>
 </body>

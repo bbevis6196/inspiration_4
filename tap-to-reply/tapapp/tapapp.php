@@ -1,3 +1,6 @@
+<?php
+$question = $_POST['question'];
+?>
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +20,7 @@
     <div id="page">
         <div id="app">
             <div id="message">
-                <p id="txtquestion">Do you want to go out to the really cool concert tonight?</p>
+                <p id="txtquestion"><?= $question ?></p>
             </div>
             <div id="responses">
                 <div class="row">
