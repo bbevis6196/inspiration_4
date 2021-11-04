@@ -11,7 +11,7 @@ window.app = angular.module('hi-angular', []);
 app.controller('MainController', function ($scope, $http) {
     $scope.user = null;
 
-    $http.get('/tap-to-reply/tapapp/responses.json')
+    $http.get('responses.json')
         .then(response => {
             console.log(response.data);
 
