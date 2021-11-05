@@ -19,5 +19,6 @@ var_dump($myJSON);
 $bytes = file_put_contents("responses.json", $myJSON); 
 // echo "The number of bytes written are $bytes.";
 // echo "<a href='responses.json'>go to file</a>";
+usleep(250000); //sleep for 0.25 sec
 header("Location: tapapp2.php");
 
