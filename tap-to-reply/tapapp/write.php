@@ -16,8 +16,8 @@ var_dump($myJSON);
 // $f=fopen('responses.json','w'); //TODO: change to responses.json
 // fwrite($f,$myJSON);
 // fclose($f);
-$bytes = file_put_contents("responses.json", $myJSON); 
-echo "The number of bytes written are $bytes.";
-echo "<a href='responses.json'>go to file</a>";
-//header("Location: tapapp2.php");
+// $bytes = file_put_contents("responses.json", $myJSON); 
+// echo "The number of bytes written are $bytes.";
+// echo "<a href='responses.json'>go to file</a>";
+header("Location: tapapp2.php");
 
