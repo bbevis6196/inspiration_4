@@ -24,9 +24,11 @@ $myJSON = json_encode($myObj);
 
 $f = fopen('responses.json', 'w');
 if (fwrite($f, $myJSON)) {
-    echo "success";
+    // echo "success";
+    fclose($f);
+    header("Location: tapapp2.php");
+} else {
+    fclose($f);
+    echo "failed to write";
+    echo "<br><a href='tapapp2.json'>back to app</a>";
 }
-fclose($f);
-
-// header("Location: tapapp2.php");
-
