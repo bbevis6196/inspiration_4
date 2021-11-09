@@ -18,11 +18,13 @@
         <div id="app">
             <div id="message">
                 <div><button type="button" onclick="goBack()">Go back to app</button></div>
-                <div></div>
+                <div>
+                    <p class="abeezee-txt-white">Change your responses</p>
+                </div>
                 <div></div>
             </div>
             <div id="responses">
-                <form action="write.php" method="POST">
+                <form action="write.php" method="POST" class="abeezee-txt-white">
                     <p>Enthusiastic Positive (top left): <input type="text" name="ep" required><br>
                     <p>Enthusiastic Negative (top right): <input type="text" name="en" required><br>
                     <p>Unenthusiastic Positive (bottom left): <input type="text" name="up" required><br>

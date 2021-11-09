@@ -67,6 +67,12 @@ body {
 	background-color: #d46b2a;
 }
 
+.abeezee-txt-white {
+    font-family: "ABeeZee", normal;
+	font-size: 22px;
+    color: white;
+}
+
 .row {
     width: 100%;
     height: 50%;
