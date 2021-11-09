@@ -46,17 +46,27 @@
     </div>
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">Try it out</h3>        
-      <p>In the form below, you can type in a sample question that will appear in the app.
+      <p>In the forms below, you can type in a sample question that will appear in the app.
         A default question is already set up if you choose not to submit a question.
         Click 'Go to app' to go to the app.</p>
-        <form action="tapapp/tapapp.php" method="POST">
-            <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
-            <input type="submit" value="Go to app">
-        </form>
-        <form action="tapapp/tapapp2.php" method="POST">
-            <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
-            <input type="submit" value="Go to app 2">
-        </form>
+      <h6>Demo 1</h6>
+      <p>This version has the main interface and has input boxes at the bottom of the page that
+         will live update the response choices.
+      </p>
+      <form action="tapapp/tapapp.php" method="POST">
+          <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
+          <input type="submit" value="Go to app">
+      </form><br>
+      <h6>Demo 2</h6>
+      <p>This version has the main interface with a settings icon at the top. This will go to the settings page where the
+         user can change the 4 response choices. The save button will write the new responses to a JSON file and go 
+         back to the main interface.
+      </p>
+      
+      <form action="tapapp/tapapp2.php" method="POST">
+          <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
+          <input type="submit" value="Go to app 2">
+      </form>
     </div>
     
   </div>
