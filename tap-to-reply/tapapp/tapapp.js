@@ -35,10 +35,13 @@ app.addEventListener('click', function (e) {
     if (clickclass == "msg") {
         console.log(clickedItem.childNodes[1].innerHTML);
         txtsend.innerHTML = clickedItem.childNodes[1].innerHTML;
+        txtsend.setAttribute("class", "pstyle bluemessage");
 
     } else if (clickclass == "responses ng-binding") {
         console.log(clickedItem.innerHTML);
         txtsend.innerHTML = clickedItem.innerHTML;
+        txtsend.setAttribute("class", "pstyle bluemessage");
+
     }
 
 });

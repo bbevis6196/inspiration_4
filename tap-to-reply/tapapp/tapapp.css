@@ -28,7 +28,7 @@ body {
     background-color: #403c3b; 
     height: 15%; 
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
     align-items: center;
 	font-family: "ABeeZee", normal;
 	font-size: 22px;
@@ -99,8 +99,12 @@ body {
 	color: white;
 }
 
-.bi-gear:hover{
+.bi-gear-wide-connected:hover{
     cursor: pointer;
+}
+
+#settingsdiv {
+    margin-right: 2%;
 }
 
 /* new imessage style for both the message and send */
@@ -108,7 +112,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
-    max-width: 90%;
+    max-width: 70%;
     word-wrap: break-word;
     margin-bottom: 12px;
     line-height: 24px;
@@ -146,7 +150,8 @@ body {
 .graymessage {
 	background: var(--receive-bg);
 	color: black;
-  align-self: flex-start;
+    align-self: flex-start;
+    margin-left: 2%;
 		
 	&:before {
 		left: -7px;
