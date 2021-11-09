@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div id="page">
         <div id="app">
             <div id="message">
-                <p id="txtquestion"><?= $_SESSION['question'] ?></p>
+                <p id="txtquestion" class="pstyle graymessage"><?= $_SESSION['question'] ?></p>
                 <div id="settingsdiv">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                         class="bi bi-gear" viewBox="0 0 16 16" onclick="settingsFunction()">
@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             </div>
             <div id="send">
-                <p id="txtsend"></p>
+                <p id="txtsend" class="pstyle bluemessage"></p>
             </div>
         </div>
 

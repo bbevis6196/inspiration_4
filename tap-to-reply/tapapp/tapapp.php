@@ -20,7 +20,7 @@ $question = $_POST['question'];
     <div id="page">
         <div id="app">
             <div id="message">
-                <p id="txtquestion"><?= $question ?></p>
+                <p id="txtquestion" class="pstyle graymessage"><?= $question ?></p>
             </div>
             <div id="responses">
                 <div class="row">
@@ -43,7 +43,7 @@ $question = $_POST['question'];
 
             </div>
             <div id="send">
-                <p id="txtsend"></p>
+                <p id="txtsend" class="pstyle bluemessage"></p>
             </div>
         </div>
 

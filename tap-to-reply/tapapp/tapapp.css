@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee);
+
+@use postcss-nested;
+
+:root {
+  --send-bg: #0B93F6;
+  --send-color: white;
+  --receive-bg: #E5E5EA;
+  --receive-text: black;
+}
+
 body {
 	background-color: #000;
 	margin: 0; 
@@ -15,9 +25,8 @@ body {
 }
 	
 #message {
-    background-color: #8f8f8f; 
-    height: 15%; /*this means the height is 15% of the height of the parent element, app*/
-    margin: 1%;
+    background-color: #403c3b; 
+    height: 15%; 
 	display: flex;
 	justify-content: space-evenly;
     align-items: center;
@@ -33,7 +42,7 @@ body {
 }
 
 #send {
-    background-color: #34a844; 
+    background-color: #403c3b; 
     height: 15%;
 	display: flex;
 	justify-content: space-evenly;
@@ -94,7 +103,65 @@ body {
     cursor: pointer;
 }
 
+/* new imessage style for both the message and send */
+.pstyle {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+    max-width: 90%;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    line-height: 24px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 25px;
+  
+    &:before, &:after {
+    content: "";
+	position: absolute;
+    bottom: 0;
+    height: 25px;
+  }
+}
 
+.bluemessage {
+	color: var(--send-color); 
+	background: var(--send-bg);
+	align-self: flex-end;
+		
+	&:before {
+		right: -7px;
+    width: 20px;
+    background-color: var(--send-bg);
+	border-bottom-left-radius: 16px 14px;
+	}
+
+	&:after {
+		right: -26px;
+    width: 26px;
+    background-color: var(--page-background);
+		border-bottom-left-radius: 10px;
+	}
+}
+.graymessage {
+	background: var(--receive-bg);
+	color: black;
+  align-self: flex-start;
+		
+	&:before {
+		left: -7px;
+    width: 20px;
+    background-color: var(--receive-bg);
+		border-bottom-right-radius: 16px 14px;
+	}
+
+	&:after {
+		left: -26px;
+    width: 26px;
+    background-color: var(--page-background);
+		border-bottom-right-radius: 10px;
+	}
+}
 
 
 
