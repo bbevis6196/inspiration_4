@@ -19,13 +19,28 @@
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">About</h3>
       <p>
-      <h6>User Story:</h6>
+      <h6><u>User Story:</u></h6>
       <b>As a</b> replier <br>
       <b>I want to</b> tap my reply <br>
-      <b>So That</b> I don't wreck my car <br>
+      <b>So That</b> I don't wreck my car </p><br>
+      <p></p>
+      <h6><u>Process:</u></h6>
+      <b>Old way:</b>
+      <ol>
+        <li>Recieve a text message</li>
+        <li>Tap on reply box</li>
+        <li>Manually type out the response while trying not to make typos</li>
+      </ol>
+      <b>New way:</b>
+      <ol>
+        <li>The user receives a message</li>
+        <li>The four possible response options pop up to be selected (The user can change the response options to what they want or what would fit the tone)</li>
+        <li>The user selects the desired response by tapping one of the four quadrants of responses</li>
+      </ol>
     </div>
     <div class="col-sm-4">
-      <h3 class="bg-light bg-gradient">Column 2</h3>
+      <h3 class="bg-light bg-gradient">How to use</h3>
+      <img src="anykey.jpg"  style="max-width: 70%; height: auto" />
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
@@ -43,8 +58,11 @@
             <input type="submit" value="Go to app 2">
         </form>
     </div>
+    
   </div>
+  
 </div>
+<p class="bg-secondary bg-gradient text-secondary" style="margin-bottom: 0px; margin-top: 10px">.</p>
 </body>
 
 </html>
