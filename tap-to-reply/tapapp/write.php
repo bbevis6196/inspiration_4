@@ -30,5 +30,5 @@ if (fwrite($f, $myJSON)) {
 } else {
     fclose($f);
     echo "failed to write";
-    echo "<br><a href='tapapp2.json'>back to app</a>";
+    echo "<br><a href='tapapp2.php'>back to app</a>";
 }
