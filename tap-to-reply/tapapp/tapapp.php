@@ -43,7 +43,7 @@ $question = $_POST['question'];
 
             </div>
             <div id="send">
-                <p id="txtsend" class="pstyle bluemessage"></p>
+                <p id="txtsend"></p>
             </div>
         </div>
 
