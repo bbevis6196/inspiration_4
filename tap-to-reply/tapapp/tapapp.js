@@ -1,3 +1,4 @@
+$(window).bind("unload", function () { });
 // get question out of url & put on page =======================
 // var url_string = window.location;
 // var url = new URL(url_string);
@@ -6,19 +7,24 @@
 // document.getElementById("txtquestion").innerHTML = question;
 //==============================================================
 // use angular to get responses from responses.json ============
-window.app = angular.module('hi-angular', []);
+window.onload = angularfunction();
+window.onunload = angularfunction();
 
-app.controller('MainController', function ($scope, $http) {
-    $scope.user = null;
+function angularfunction() {
+    window.app = angular.module('hi-angular', []);
 
-    $http.get('responses.json')
-        .then(response => {
-            console.log(response.data);
+    app.controller('MainController', function ($scope, $http) {
+        $scope.user = null;
 
-            $scope.msg = response.data;
-        });
+        $http.get('responses.json')
+            .then(response => {
+                console.log(response.data);
 
-});
+                $scope.msg = response.data;
+            });
+
+    });
+};
 //==============================================================
 // click listener and put message at the bottom ================
 var txtsend = document.getElementById('txtsend');
