@@ -45,7 +45,7 @@ body {
     background-color: #403c3b; 
     height: 15%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: flex-end;
     align-items: center;
 	font-family: "ABeeZee", normal;
 	font-size: 30px;
@@ -138,6 +138,13 @@ body {
 	color: var(--send-color); 
 	background: var(--send-bg);
 	align-self: flex-end;
+    margin-right: 2%;
+    font-size: 25px;
+    height: 40%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
 		
 	&:before {
 		right: -7px;
