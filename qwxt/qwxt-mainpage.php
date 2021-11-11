@@ -52,7 +52,15 @@
       <p>This version of the app has a pre-defined question and answer key for functionality.
       </p>
       <form action="qwxtapp/qwxtapp.php" method="POST">
-          <input type="text" name="question" value="Do you want to GO OUT, COOK OUT, or OTHER" />
+          Quesiton:
+          <input type="text" name="question" required /><br>
+          Option 1
+          <input type="text" name="opt1" required /><br>
+          Option 2
+          <input type="text" name="opt2" required/><br>
+          Option 3
+          <input type="text" name="opt3" required/><br>
+
           <input type="submit" value="Go to QWXT">
       </form><br>
       
