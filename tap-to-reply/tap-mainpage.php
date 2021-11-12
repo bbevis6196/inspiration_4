@@ -10,8 +10,8 @@
 
 <body>
 <div class="container-fluid p-5 bg-secondary bg-gradient text-white text-center">
-  <h1>Welcome to the Tap-to-reply Main Page!</h1>
-  <p>stuff about product here</p> 
+  <h1>Welcome to the Tap-To-Reply Main Page!</h1>
+  <p>Tap-To-Reply: Making it easier and faster to reply to a message.</p> 
 </div>
   
 <div class="container mt-5">
@@ -40,9 +40,14 @@
     </div>
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">How to use</h3>
+      <p></p>
       <img src="anykey.jpg"  style="max-width: 70%; height: auto" />
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p></p>
+      <p>The main interface will display a question at the top of the window. Below that, in the mid section of the window, there
+         will be four response options contained in click-able buttons. Clicking on one of the options will display the selected response
+         at the bottom of the window, simulating sending the reply. 
+      </p>
+
     </div>
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">Try it out</h3>        
@@ -54,18 +59,18 @@
          will live update the response choices.
       </p>
       <form action="tapapp/tapapp.php" method="POST">
-          <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
-          <input type="submit" value="Go to app">
+          <input type="text" class="form-control" name="question" value="Do you want to go out to the really cool concert tonight?" />
+          <input type="submit" class="btn btn-outline-info" value="Go to app (Demo 1)">
       </form><br>
       <h6>Demo 2</h6>
-      <p>This version has the main interface with a settings icon at the top. This will go to the settings page where the
-         user can change the 4 response choices. The save button will write the new responses to a JSON file and go 
-         back to the main interface.
+      <p>This version has the main interface with a settings icon at the top. Clicking the settings icon will send you
+         to the settings page where you can change the 4 response choices. The save button will write the new responses 
+         to a JSON file and send you back to the main interface.
       </p>
       
       <form action="tapapp/tapapp2.php" method="POST">
-          <input type="text" name="question" value="Do you want to go out to the really cool concert tonight?" />
-          <input type="submit" value="Go to app 2">
+          <input type="text" class="form-control" name="question" value="Do you want to go out to the really cool concert tonight?" />
+          <input type="submit" class="btn btn-outline-info" value="Go to app (Demo 2)">
       </form>
     </div>
     
