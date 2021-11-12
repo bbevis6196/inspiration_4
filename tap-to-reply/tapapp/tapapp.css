@@ -113,6 +113,24 @@ body {
     margin-right: 2%;
 }
 
+/* message bubble animation */
+@keyframes slideInBottom {
+    0% {
+      transform: translateY(30%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes slideInTop {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
 /* new imessage style for both the message and send */
 .pstyle {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -144,6 +162,7 @@ body {
     align-items: center;
     justify-content: space-between;
     display: flex;
+    animation: 0.5s ease-out 0s 1 slideInBottom;
     
 		
 	&:before {
@@ -154,9 +173,9 @@ body {
 	}
 
 	&:after {
-		right: -26px;
-    width: 26px;
-    background-color: var(--page-background);
+        right: -26px;
+        width: 26px;
+        background-color: var(--page-background);
 		border-bottom-left-radius: 10px;
 	}
 }
@@ -165,19 +184,20 @@ body {
 	color: black;
     align-self: flex-start;
     margin-left: 2%;
+    animation: 0.5s ease-out 0s 1 slideInTop;
 		
 	&:before {
 		left: -7px;
-    width: 20px;
-    background-color: var(--receive-bg);
-		border-bottom-right-radius: 16px 14px;
+        width: 20px;
+        background-color: var(--receive-bg);
+        border-bottom-right-radius: 16px 14px;
 	}
 
 	&:after {
-		left: -26px;
+	left: -26px;
     width: 26px;
     background-color: var(--page-background);
-		border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 	}
 }
 
