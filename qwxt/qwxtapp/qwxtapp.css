@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee);
 
     body {
+      color: white;
       background-color: #000;
       margin: 0;
       padding: 0;
@@ -8,7 +9,7 @@
     }
 
     #page {
-      background-color: #403c3b;
+      background-color: #292929;
       margin: 0 auto 0 auto;
     }
 
@@ -27,7 +28,7 @@
     }
 
     #app {
-      background-color: #34ebc6;
+      background-color: #292929;
       height: 600px;
       margin: 0 auto 0 auto;
       font-family: "ABeeZee", normal;
@@ -40,7 +41,7 @@
     }
 
     #responses {
-      background-color: #34ebc6;
+      background-color: #292929;
       height: 60%;
       display: flex;
       font-family: "ABeeZee", normal;
@@ -52,7 +53,7 @@
     }
 
     #send {
-      background-color: #34ebc6;
+      background-color: #1289fe;
       height: 20%;
       margin: 0 auto 0 auto;
       display: flex;
@@ -68,13 +69,13 @@
       border-radius: 25px;
       font-size: 22px;
       color: black;
-      border: 4px solid #4CAF50;
+      border: 4px solid #5dac5d;
       height: 33%;
       font-family: "ABeeZee", normal;
     }
 
     #button1:hover {
-      background-color: #4CAF50;
+      background-color: #5dac5d;
       color: white;
       opacity: 1;
       transition: opacity 0.5s;
@@ -86,13 +87,13 @@
       border-radius: 25px;
       font-size: 22px;
       color: black;
-      border: 4px solid blue;
+      border: 4px solid rgb(255, 167, 116);
       height: 33%;
       font-family: "ABeeZee", normal;
     }
 
     #button2:hover {
-      background-color: blue;
+      background-color: rgb(255, 167, 116);
       color: white;
       opacity: 1;
       transition: opacity 0.5s;
@@ -104,13 +105,13 @@
       color: black;
       font-size: 22px;
       border-radius: 25px;
-      border: 4px solid purple;
+      border: 4px solid rgb(202, 111, 202);
       height: 34%;
       font-family: "ABeeZee", normal;
     }
 
     #button3:hover {
-      background-color: purple;
+      background-color: rgb(202, 111, 202);
       color: white;
       opacity: 1;
       transition: opacity 0.5s;
@@ -120,7 +121,73 @@
     .btn {
       font-family: "ABeeZee", normal;
     }
+
+    .pstyle {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: normal;
+        max-width: 70%;
+        word-wrap: break-word;
+        margin-bottom: 12px;
+        line-height: 24px;
+        position: relative;
+        padding: 10px 20px;
+        border-radius: 25px;
+      
+        &:before, &:after {
+        content: "";
+      position: absolute;
+        bottom: 0;
+        height: 25px;
+      }
+    }
     
+    .bluemessage {
+      color: var(--send-color); 
+      background: var(--send-bg);
+      align-self: flex-end;
+        margin-right: 2%;
+        font-size: 25px;
+        height: 40%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        
+        
+      &:before {
+        right: -7px;
+        width: 20px;
+        background-color: var(--send-bg);
+      border-bottom-left-radius: 16px 14px;
+      }
+    
+      &:after {
+        right: -26px;
+        width: 26px;
+        background-color: var(--page-background);
+        border-bottom-left-radius: 10px;
+      }
+    }
+    .graymessage {
+      background: var(--receive-bg);
+      color: black;
+        align-self: flex-start;
+        margin-left: 2%;
+        
+      &:before {
+        left: -7px;
+        width: 20px;
+        background-color: var(--receive-bg);
+        border-bottom-right-radius: 16px 14px;
+      }
+
+      &:after {
+        left: -26px;
+        width: 26px;
+        background-color: var(--page-background);
+        border-bottom-right-radius: 10px;
+      }
+    }
 
 
     @media only screen and (max-width: 500px) {
