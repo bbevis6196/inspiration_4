@@ -1,9 +1,21 @@
 <?php session_start();
 $question = $_POST['question'];
-$opt1 = $_POST['opt1'];
-$opt2 = $_POST['opt2'];
-$opt3 = $_POST['opt3'];
-  ?>
+
+
+function getInbetweenStrings($start, $end, $str){ 
+  $matches = array(); 
+  $regex = "/$start([a-zA-Z0-9_]*)$end/"; 
+  preg_match_all($regex, $str, $matches); 
+  return $matches[1]; 
+} 
+$str_arr = getInbetweenStrings('-', '=', $question); 
+
+$cleanQuestion = str_replace('-', ' ', $question);
+$cleanQuestion = str_replace('=', ' ', $cleanQuestion);
+ ?>
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -18,13 +30,13 @@ $opt3 = $_POST['opt3'];
   <div id="page">
     <div id="app">
       <div id="msg">
-      <p id="textquestion"><?= $question ?><?= $opt1 . " " ?><?= $opt2 . " " ?><?= $opt3 . "? " ?></p>
+      <p id="textquestion"><?= $cleanQuestion ?></p>
       </div>
       <div id="responses">
 
-        <button id="button1" type="button" class="btn"><?= $opt1 ?></button>
-        <button id="button2" type="button" class="btn"><?= $opt2 ?></button>
-        <button id="button3" type="button" class="btn"><?= $opt3 ?></button>
+        <button id="button1" type="button" class="btn"><?= $str_arr[0] ?></button>
+        <button id="button2" type="button" class="btn"><?= $str_arr[1] ?></button>
+        <button id="button3" type="button" class="btn"><?= $str_arr[2] ?></button>
 
       </div>
       <div id="send">

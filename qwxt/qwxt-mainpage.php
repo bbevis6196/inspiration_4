@@ -54,12 +54,7 @@
       <form action="qwxtapp/qwxtapp.php" method="POST">
           Quesiton:
           <input type="text" name="question" required /><br>
-          Option 1
-          <input type="text" name="opt1" required /><br>
-          Option 2
-          <input type="text" name="opt2" required/><br>
-          Option 3
-          <input type="text" name="opt3" required/><br>
+          
 
           <input type="submit" value="Go to QWXT">
       </form><br>
