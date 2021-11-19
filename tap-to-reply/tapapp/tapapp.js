@@ -1,4 +1,5 @@
 $(window).bind("unload", function () { });
+
 // get question out of url & put on page =======================
 // var url_string = window.location;
 // var url = new URL(url_string);
@@ -36,15 +37,15 @@ app.addEventListener('click', function (e) {
     var clickedItem = e.target;
 
     var clickclass = clickedItem.getAttribute("class");
-    console.log(clickclass);
+    //console.log(clickclass);
 
     if (clickclass == "msg") {
-        console.log(clickedItem.childNodes[1].innerHTML);
+        //console.log(clickedItem.childNodes[1].innerHTML);
         txtsend.innerHTML = clickedItem.childNodes[1].innerHTML;
         txtsend.setAttribute("class", "pstyle bluemessage");
 
     } else if (clickclass == "responses ng-binding") {
-        console.log(clickedItem.innerHTML);
+        //console.log(clickedItem.innerHTML);
         txtsend.innerHTML = clickedItem.innerHTML;
         txtsend.setAttribute("class", "pstyle bluemessage");
 
