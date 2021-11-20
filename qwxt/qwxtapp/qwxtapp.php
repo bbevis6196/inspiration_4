@@ -8,13 +8,11 @@ function getInbetweenStrings($start, $end, $str){
   preg_match_all($regex, $str, $matches); 
   return $matches[1]; 
 } 
-$str_arr = getInbetweenStrings('<', '>', $question); 
+$str_arr = getInbetweenStrings("<", ">", $question); 
 
-$cleanQuestion = str_replace('<', ' ', $question);
-$cleanQuestion = str_replace('>', ' ', $cleanQuestion);
+$cleanQuestion = str_replace("<", " ", $question);
+$cleanQuestion = str_replace(">", " ", $cleanQuestion);
  ?>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -34,10 +32,12 @@ $cleanQuestion = str_replace('>', ' ', $cleanQuestion);
       </div>
       <div id="responses">
 
-        <button id="button1" type="button" class="btn"><?= $str_arr[0] ?></button>
-        <button id="button2" type="button" class="btn"><?= $str_arr[1] ?></button>
-        <button id="button3" type="button" class="btn"><?= $str_arr[2] ?></button>
-
+        <?php
+          foreach($str_arr as $value) {
+            echo "<button type='button' class='btn'>$value</button>";
+          };
+        ?>
+    
       </div>
       <div id="send">
         <p id="txtsend"></p>
