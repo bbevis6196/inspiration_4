@@ -8,10 +8,10 @@ function getInbetweenStrings($start, $end, $str){
   preg_match_all($regex, $str, $matches); 
   return $matches[1]; 
 } 
-$str_arr = getInbetweenStrings('-', '=', $question); 
+$str_arr = getInbetweenStrings('<', '>', $question); 
 
-$cleanQuestion = str_replace('-', ' ', $question);
-$cleanQuestion = str_replace('=', ' ', $cleanQuestion);
+$cleanQuestion = str_replace('<', ' ', $question);
+$cleanQuestion = str_replace('>', ' ', $cleanQuestion);
  ?>
 
 
