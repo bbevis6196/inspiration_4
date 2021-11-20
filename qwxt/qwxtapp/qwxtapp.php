@@ -40,7 +40,7 @@ $cleanQuestion = str_replace(">", " ", $cleanQuestion);
     
       </div>
       <div id="send">
-        <p id="txtsend" class="pstyle bluemessage"></p>
+        <p id="txtsend"></p>
 
       </div>
 

@@ -13,6 +13,7 @@ app.addEventListener('click', function (e) {
     if (clickclass == "btn") {
         //console.log(clickedItem.innerHTML);
         txtsend.innerHTML = clickedItem.innerHTML;
+        txtsend.setAttribute("class", "pstyle bluemessage");
     }
 });
 //=================================================================
