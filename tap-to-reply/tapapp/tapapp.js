@@ -1,5 +1,7 @@
 $(window).bind("unload", function () { });
 
+window.history.forward(1);
+
 // get question out of url & put on page =======================
 // var url_string = window.location;
 // var url = new URL(url_string);
@@ -8,8 +10,10 @@ $(window).bind("unload", function () { });
 // document.getElementById("txtquestion").innerHTML = question;
 //==============================================================
 // use angular to get responses from responses.json ============
-window.onload = angularfunction();
-window.onunload = angularfunction();
+// window.onload = delresponses();
+// window.onunload = angularfunction();
+delresponses();
+angularfunction();
 
 function angularfunction() {
     window.app = angular.module('hi-angular', []);
@@ -25,7 +29,32 @@ function angularfunction() {
             });
 
     });
+    console.log("got responses.json");
 };
+
+function delresponses() {
+    window.app = angular.module('hi-angular', []);
+
+    app.controller('MainController', function ($scope, $http) {
+        $scope.user = null;
+
+        $http.delete('responses.json')
+        // .then(response => {
+        //     console.log(response.data);
+
+        //     $scope.msg = response.data;
+        // });
+
+    });
+    console.log("deleted");
+};
+
+function delCache() {
+    caches.open('v1').then(function (cache) {
+        cache.delete('responses.json').then(angularfunction());
+    });
+};
+
 //==============================================================
 // click listener and put message at the bottom ================
 var txtsend = document.getElementById('txtsend');
@@ -59,6 +88,6 @@ function settingsFunction() {
     window.location.replace("settings.php");
 }
 
-function goBack() {
-    window.location.replace("tapapp2.php");
-}
+// function goBack() {
+//     window.location.replace("tapapp2.php");
+// }

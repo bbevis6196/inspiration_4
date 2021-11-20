@@ -25,7 +25,9 @@ if (fwrite($f, $myJSON)) {
     // header("Cache-Control: post-check=0, pre-check=0", false);
     // header("Pragma: no-cache");
     
-    header("Location: tapapp2.php");
+    //header("Location: tapapp2.php");
+    echo "<script>window.location.replace('tapapp2.php');</script>";
+    die();
 } else {
     fclose($f);
     echo "failed to write";
