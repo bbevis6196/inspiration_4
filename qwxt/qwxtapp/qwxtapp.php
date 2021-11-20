@@ -28,7 +28,7 @@ $cleanQuestion = str_replace(">", " ", $cleanQuestion);
   <div id="page">
     <div id="app">
       <div id="msg">
-      <p id="textquestion"><?= $cleanQuestion ?></p>
+      <p id="textquestion" class="pstyle graymessage"><?= $cleanQuestion ?></p>
       </div>
       <div id="responses">
 
@@ -40,7 +40,7 @@ $cleanQuestion = str_replace(">", " ", $cleanQuestion);
     
       </div>
       <div id="send">
-        <p id="txtsend"></p>
+        <p id="txtsend" class="pstyle bluemessage"></p>
 
       </div>
 

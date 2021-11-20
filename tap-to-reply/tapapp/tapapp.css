@@ -201,12 +201,6 @@ body {
 	}
 }
 
-
-
-
-
-
-
 /* dynamically change size of app based on screen size */
 @media only screen and (max-width: 500px) {
     body {
