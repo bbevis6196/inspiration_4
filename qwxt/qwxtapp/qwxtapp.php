@@ -43,5 +43,4 @@ $cleanQuestion = str_replace(">", "", $cleanQuestion);
   </div>
   <script src="qwxtapp.js"></script>
 </body>
-
 </html>
