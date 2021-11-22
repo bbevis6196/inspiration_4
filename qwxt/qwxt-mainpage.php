@@ -54,6 +54,7 @@
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">Try it out</h3>        
       <p>Placeholder</p>
+      <img src="frustration.jpg" style="max-width: 70%; height: auto" />
       <h6>Demo </h6>
       <p>This version of the app has a pre-defined question and answer key for functionality.
       </p>
