@@ -53,9 +53,11 @@
       
     </div>
     <div class="col-sm-4">
-      <h3 class="bg-light bg-gradient">Try it out</h3>        
+      <h3 class="bg-light bg-gradient">Try it out</h3> 
+      <p>Enter any question in the text box below.</p>       
       <form action="qwxtapp/qwxtapp.php" method="POST">
           <b>Quesiton:</b>
+          
           <input type="text" name="question" required /><br>
           <p></p>
           
