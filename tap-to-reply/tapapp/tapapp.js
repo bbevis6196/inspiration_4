@@ -2,16 +2,7 @@ $(window).bind("unload", function () { });
 
 window.history.forward(1);
 
-// get question out of url & put on page =======================
-// var url_string = window.location;
-// var url = new URL(url_string);
-// var question = url.searchParams.get("question");
-// console.log(question);
-// document.getElementById("txtquestion").innerHTML = question;
-//==============================================================
-// use angular to get responses from responses.json ============
-// window.onload = delresponses();
-// window.onunload = angularfunction();
+
 delresponses();
 angularfunction();
 

@@ -25,12 +25,12 @@
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">About</h3>
       <p>
-      <h6><u>User Story:</u></h6>
+      <h6><u><b>User Story:</b></u></h6>
       <b>As a</b> txt questioner <br>
       <b>I want </b> an actual answer to my question <br>
       <b>So That</b>  I don't loose my <g-emoji class="g-emoji" alias="frog" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f438.png">🐸</g-emoji>'ing mind   </p><br>
       <p></p>
-      <h6><u>Process:</u></h6>
+      <h6><u><b>Process:</b></u></h6>
       <b>Old way:</b>
       <ol>
         <li>1. Person A sends a question that requires one of at least two different options to Person B.</li>
@@ -45,21 +45,19 @@
     </div>
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">How to use</h3>
-      <p>This app aims to provide the ability to answer quesitons that need more than just a "Yes" or "No".</p>
-      <p>With this app you will be able to answer more detailed questions with more specifc answers. So simple a cat could use it!! </p>
-      <p>For example: <br>
-        ..............</p>
-      <img src="frustration.jpg" style="max-width: 70% ; height: auto" />
+      <img src="frustration.jpg" style="max-width: 100% ; height: auto" />
+      <p></p>
+
+      <p>The main interface of the app will display a question at the top of the window. Below that, there will be responses the user inputs as click-able buttons. Clicking on one of the options will display the selected response at the bottom of the window, simulating sending the reply.
+      </p>
+      
     </div>
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">Try it out</h3>        
-      <p>Placeholder</p>
-      <h6>Demo </h6>
-      <p>This version of the app has a pre-defined question and answer key for functionality.
-      </p>
       <form action="qwxtapp/qwxtapp.php" method="POST">
-          Quesiton:
+          <b>Quesiton:</b>
           <input type="text" name="question" required /><br>
+          <p></p>
           
 
           <input type="submit" value="Go to QWXT">

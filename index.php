@@ -17,7 +17,7 @@
         <h2>Hello There!</h2>
     </div>
     <div class="container d-flex align-items-center justify-content-center">
-        <p>Tap-to-reply and QWXT are about making replying and getting the right reply easier. Click on of the buttons below to go to the main page of either Tap-to-reply or QWXT.</p> <br>
+        <p>Tap-to-reply and QWXT strive towards making replying and getting the right reply easier. Click on of the buttons below to go to the main page of either Tap-to-reply or QWXT.</p> <br>
         <p></p>
     </div>
     <div class="d-grid gap-3">
