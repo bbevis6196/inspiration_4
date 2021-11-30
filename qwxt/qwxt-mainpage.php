@@ -48,7 +48,7 @@
       <img src="frustration.jpg" style="max-width: 70% ; height: auto" />
       <p></p>
 
-      <p>When launching the app you will input a question with defined answers using "[" "]" brakets. for example, Would you like to [Go Out], [Cook Out], or [Other]. The main interface of the app will display your question at the top of the window. Below that, the responses the user inputs in the question will be displayed as click-able buttons. Clicking on one of the options will display the selected response at the bottom of the window, simulating sending the reply.
+      <p>When launching the app you will input a question with defined answers using "[" "]" brakets. For example, Would you like to [Go Out], [Cook Out], or [Other]. The main interface of the app will display your question at the top of the window. Below that, the responses the user inputs in the question will be displayed as click-able buttons. Clicking on one of the options will display the selected response at the bottom of the window, simulating sending the reply.
       </p>
       
     </div>
