@@ -45,7 +45,7 @@
     </div>
     <div class="col-sm-4">
       <h3 class="bg-light bg-gradient">How to use</h3>
-      <img src="frustration.jpg" style="max-width: 100% ; height: auto" />
+      <img src="frustration.jpg" style="max-width: 70% ; height: auto" />
       <p></p>
 
       <p>The main interface of the app will display a question at the top of the window. Below that, there will be responses the user inputs as click-able buttons. Clicking on one of the options will display the selected response at the bottom of the window, simulating sending the reply.
