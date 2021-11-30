@@ -29,6 +29,10 @@
         <p> Members: </p>
         <p> Product:</p>
     </div> -->
+    <div style="margin-top: 7%"></div>
+    <div class="d-grid gap-3">
+        <button class="btn btn-info" onclick="window.location.href='https://github.com/bbevis6196/inspiration_4'">GitHub Repo</button>
+    </div>
     
 </body>
 
