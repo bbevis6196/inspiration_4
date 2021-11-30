@@ -48,7 +48,7 @@
       <img src="frustration.jpg" style="max-width: 70% ; height: auto" />
       <p></p>
 
-      <p>The main interface of the app will display a question at the top of the window. Below that, there will be responses the user inputs as click-able buttons. Clicking on one of the options will display the selected response at the bottom of the window, simulating sending the reply.
+      <p>The goal of QWXT is to answer a question, with a text. The main interface of the app will display a question at the top of the window. Below that, there will be responses the user inputs as click-able buttons. Clicking on one of the options will display the selected response at the bottom of the window, simulating sending the reply.
       </p>
       
     </div>
