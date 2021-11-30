@@ -11,7 +11,7 @@
 <body>
 <div class="container-fluid p-5 bg-secondary bg-gradient text-white text-center">
   <h1>Welcome to the Tap-To-Reply Main Page!</h1>
-  <p>Tap-To-Reply: Making it easier and faster to reply to a message.</p> 
+  <p>Making it easier and faster to reply to a message.</p> 
   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16" style="margin-right: 10%">
     <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
   </svg>
@@ -71,7 +71,9 @@
       <h6>Demo 2</h6>
       <p>This version has the main interface with a settings icon at the top. Clicking the settings icon will send you
          to the settings page where you can change the 4 response choices. The save button will write the new responses 
-         to a JSON file and send you back to the main interface.
+         to a JSON file and send you back to the main interface. <br>
+         **Currently, there is an issue with Heroku where the newly written to JSON file does not immediately refresh. 
+         This issue does not exist when running the app locally.**
       </p>
       
       <form action="tapapp/tapapp2.php" method="POST">
