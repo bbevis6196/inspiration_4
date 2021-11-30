@@ -1,12 +1,12 @@
 <?php
 $question = $_POST['question'];
 
-preg_match_all('%\<(.*?)\>%i', $question, $matches, PREG_PATTERN_ORDER);
+preg_match_all('%\[(.*?)\]%i', $question, $matches, PREG_PATTERN_ORDER);
 // $matches[1] is the array of the choices
 $ansChoices = $matches[1];
 
-$cleanQuestion = str_replace("<", "", $question);
-$cleanQuestion = str_replace(">", "", $cleanQuestion);
+$cleanQuestion = str_replace("[", "", $question);
+$cleanQuestion = str_replace("]", "", $cleanQuestion);
  ?>
 
 <!DOCTYPE html>
